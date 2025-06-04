@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Validation QA Viewer</title>
+  <link rel="stylesheet" href="styles/style.css" />
+</head>
+<body>
+  <header>
+    <h1>Validation QA Viewer</h1>
+  </header>
+
+  <!-- FILTERS SECTION -->
+  <section id="filters">
+    <div class="filter-group">
+      <label for="filter-relation">Filter by Relation:</label>
+      <select id="filter-relation">
+        <option value="">-- All --</option>
+      </select>
+    </div>
+    <div class="filter-group">
+      <label for="filter-qqtype">Filter by Question Type:</label>
+      <select id="filter-qqtype">
+        <option value="">-- All --</option>
+      </select>
+    </div>
+    <div class="filter-group">
+      <label for="filter-vid">Filter by Video ID:</label>
+      <select id="filter-vid">
+        <option value="">-- All --</option>
+      </select>
+    </div>
+  </section>
+
+  <!-- VIDEO CARDS CONTAINER -->
+  <section id="video-container">
+    <!-- JS sẽ chèn các card vào đây -->
+  </section>
+
+  <!-- PAGINATION -->
+  <section id="pagination">
+    <!-- JS sẽ chèn nút phân trang vào đây -->
+  </section>
+
+  <script src="scripts/app.js"></script>
+</body>
+</html>
